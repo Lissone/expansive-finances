@@ -1,6 +1,7 @@
 import { FormEvent, useState } from 'react'
-
 import Modal from 'react-modal'
+
+import { api } from '../../services/api'
 
 import closeImg from '../../assets/close.svg'
 import incomeImg from '../../assets/income.svg'
@@ -28,6 +29,8 @@ export function NewTransactionModal({ isOpen, onRequestClose }: NewTransactionMo
       type,
       category,
     }
+
+    api.post('/transactions', transaction)
   }
 
   return (
@@ -57,7 +60,6 @@ export function NewTransactionModal({ isOpen, onRequestClose }: NewTransactionMo
         <input 
           placeholder="Valor" 
           type="number"
-          min='0'
           value={value}
           onChange={event => setValue(Number(event.target.value))}
         />

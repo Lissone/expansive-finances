@@ -1,62 +1,96 @@
-<h1 align="center">
+<h1 align="center" justify="center">
+  <img alt="Expansive finances logo" src="./src/assets/logo.svg" width="25px">
   Expansive finances
 </h1>
 
 <p align="center">
-  <a href="#descrição">Descrição</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#requerimentos">Requerimentos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#instalando">Dependencias</a>
+  <a href="#description">Description</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#requirements">Requirements</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#usage">Usage</a></a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#demonstration">Demonstration</a>
+</p>
+<br />
+<p align="center">
+  <img src="https://img.shields.io/static/v1?label=license&message=MIT" alt="License">
+  <img src="https://img.shields.io/github/repo-size/Lissone/expansive-finances" alt="Repo size" />
+  <img src="https://img.shields.io/github/languages/top/Lissone/expansive-finances" alt="Top lang" />
+  <img src="https://img.shields.io/github/stars/Lissone/expansive-finances" alt="Stars repo" />
+  <img src="https://img.shields.io/github/forks/Lissone/expansive-finances" alt="Forks repo" />
+  <img src="https://img.shields.io/github/issues-pr/Lissone/expansive-finances" alt="Pull requests" >
+  <img src="https://img.shields.io/github/last-commit/Lissone/expansive-finances" alt="Last commit" />
 </p>
 
 <p align="center">
- <img src="https://img.shields.io/static/v1?label=PRs&message=welcome&color=49AA26&labelColor=000000" alt="PRs welcome!" />
-
-  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
+  <a href="https://github.com/Lissone/expansive-finances/issues">Report bug</a>
+  ·
+  <a href="https://github.com/Lissone/expansive-finances/issues">Request feature</a>
 </p>
 
-<br>
+<br />
 
-## Descrição
-Projeto para cadastro de despesas e depósito, como forma de controlar e informar o andamento de suas finanças.
-No momento funcionando apenas com uma fake api, para aprimoramento de aprendizado das tecnologias presentes.
+## Description
 
-## Requerimentos
+Project to register expenses and deposit, as a way to control and report the progress of your finances.
 
-* [Yarn](https://yarnpkg.com/)
-* [Nodejs](https://nodejs.org/en/)
+At the moment working only with a fake api, to improve the learning of present technologies.
 
-## Tecnologias
+## Requirements
+
+- [Nodejs](https://nodejs.org/en/)
+- [Npm](https://www.npmjs.com/)
+- [Yarn](https://yarnpkg.com/)
+
+## Technologies
 
 - CRA (Create react app)
 - Typescript
-- Axios
 - Styled Components
 - Polished
+- Axios
 - Miragejs (Fake api)
+
+## Usage
+
+You can clone it on your pc using the command:
+
+```bash
+git clone https://github.com/Lissone/expansive-finances.git
+cd expansive-finances
+```
+
+Install dependencies using:
+
+```bash
+yarn
+#or
+npm install
+```
+
+Run web:
+
+```bash
+yarn dev
+#or
+npm run dev
+```
+
+## Demonstration
 
 **Dashboard**
 
 ![Dashboard](https://i.imgur.com/1Pq5rFp.png)
 
-**Modal de cadastro**
+**Register modal**
 
-![Modal](https://i.imgur.com/IS8u3sh.png)
+![RegisterModal](https://i.imgur.com/IS8u3sh.png)
 
-## Instalando
+## License
 
-```bash
-git clone "https://github.com/Lissone/expansive-finances.git"
-cd expansive-finances
-yarn
-#or
-npm run
-```
+Distributed under the MIT License. See `LICENSE` for more information.
 
-## Executar projeto
+<h4 align="center">
+  Made with ❤️ by <a href="https://github.com/Lissone" target="_blank">Lissone</a>
+</h4>
 
-```bash
-yarn start
-#or
-npm run start
-```
+<hr />

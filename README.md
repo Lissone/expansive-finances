@@ -43,6 +43,15 @@ At the moment working only with a fake api, to improve the learning of present t
 
 ## Technologies
 
+### Backend (Api)
+
+- Nodejs
+- Typescript
+- Nest.js
+- GraphQL
+
+### Front End
+
 - CRA (Create react app)
 - Typescript
 - Styled Components
@@ -70,9 +79,10 @@ npm install
 Run web:
 
 ```bash
-yarn dev
+cd .\packages\web\
+yarn start
 #or
-npm run dev
+npm run start
 ```
 
 ## Demonstration
